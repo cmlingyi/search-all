@@ -1,0 +1,12 @@
+page {
+    background: #ffffff;
+}
+.seachtag-group {
+    padding: 0 12rpx;
+}
+.seachtag-group {
+    display: flex;
+}
+.seachtag-cell {
+    margin-right: 10rpx;
+}

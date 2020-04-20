@@ -1,0 +1,12 @@
+<view class="search-home">
+    <view class="search-home__hd">
+        <van-search value="{{ value }}" placeholder="请输入搜索关键词" />
+        <view class="seachtag-group">
+            <view class="seachtag-cell" wx:for="{{tagList}}" wx:key="id">
+                <van-tag round type="primary" plain="{{!item.active}}" size="large" data-index="{{index}}" bindtap="tagClicked">
+                    {{item.text}}
+                </van-tag>
+            </view>
+        </view>
+    </view>
+</view>
